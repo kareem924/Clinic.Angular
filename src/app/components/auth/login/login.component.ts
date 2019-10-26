@@ -30,6 +30,5 @@ export class LoginComponent implements OnInit {
                 this.toastr.error('Hello world!', 'Toastr fun!');
             }
         );
-        localStorage.setItem('isLoggedin', 'true');
     }
 }

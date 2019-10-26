@@ -111,7 +111,7 @@ export class IdentityServerService {
         if (refresh) {
             location.reload(true);
         } else {
-            this.route.navigate(['/auth/login']);
+            this.route.navigate(['/login']);
         }
     }
 
